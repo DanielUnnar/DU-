@@ -1,0 +1,33 @@
+h1 {
+    border: 2px solid gold;
+    text-align: center;
+}
+.model {
+    border: 3px outset red;
+    padding: 2em;
+    color: red;
+}
+.model2 h1{
+    border: 3px dashed blue;
+    padding: 1em;
+    color:blue;
+}
+.blokk li {
+border: 2px dashed green;
+padding: 1em;
+margin-bottom: 1em;
+}
+.inline li {
+    display: inline;
+    border: 2px dashed blue;
+    padding: 1em;
+    margin-bottom: 1em;
+    color:red;
+    }
+.inlineblokk li {
+    display: inline-block;
+    border: 2px dashed blue;
+    padding: 1em;
+    margin: 1em;
+    color: red;
+}
