@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+.list {
+    grid-area: list;
+}
+.menu {
+    grid-area: menu;
+}
+.inn {
+    grid-area: inn;
+}
+.ytri {
+    grid-area: ytri;
+}
+h1 {
+    grid-area: h1;
+}
+h4 {
+    grid-area: h4;
+}
+nav {
+    grid-area: nav;
+}
+.blue {
+    grid-area: blu;
+}
+.foot {
+    grid-area: foot;
+}
+.v4 {
+    grid-area: v4;
+}
+.top {
+    grid-area: top;
+}
+body {
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas:
+    "top"
+    "menu"
+    "blu"
+    "foot";
+    background-color: rgb(77, 77, 247);
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin:0;
+}
+.top {
+    display: grid;
+    grid-template-areas:
+    "h1 nav v4";
+    text-align: justify;
+    grid-template-columns: 2fr 0.6fr 0.1fr;
+    background-color: rgb(77, 77, 247);
+    color: white;
+}
+.blue {
+    background-image: linear-gradient(rgb(255, 236, 131), lightyellow);
+    padding:3em 1em 2em 1em;
+}
+.foot {
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas:
+    "list inn ytri";
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(77, 77, 247);
+    color: white;
+}
+.foot a {
+    color: white;
+}
+.top a {
+    color: white;
+}
+.upp {
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(77, 77, 247);
+    font-size:2.5em;
+    display: block;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 1.5em;
+    padding: 0;
+}
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+} 
+.text {
+    text-align: justify;
+    line-height: 32px;
+    padding: 0;
+}
+.li {
+    display: inline;
+    float: left;
+}
+.a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.a:hover {
+    color: #111
+}
+.li:hover {
+    color: #111;
+    background-color: white;
+}
+.bak:hover {
+    color: #111;
+    background-color:white;
+}
+.tala {
+    color: white;
+}
+.bak {
+    font-size: 20px;
+    padding: 0.7em;
+}
+.v4 {
+    font-size: 20px;
+}
+.a:active {
+    color: blue;
+}
+.titill {
+    padding: 1em;
+    color: white;
+}
+.links {
+    padding: 1em;
+    color: white;
+}
