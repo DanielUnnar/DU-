@@ -1,0 +1,330 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+/* grid area */
+header {
+    grid-area: header;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:150%;
+    font-weight: 700;
+}
+.topnav {
+    grid-area: topnav;
+}
+.content {
+    grid-area: content;
+}
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 16px;
+}
+/* inni content */
+.a1 {
+    grid-area: aside1;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    font-weight: 300;
+}
+.a2 {
+    grid-area: aside2;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    font-weight: 300;
+}
+.art {
+    grid-area: article;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+/*grid template area*/
+body {
+    display: grid;
+    grid-gap: 0em;
+    grid-template-areas:
+    "head" "topmenu"
+    "content" "content"
+    "foot" "foot";
+    max-width: 100em;
+    background-color: lightblue;
+}
+.eg {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-areas: 
+    "article aside1"
+    "article aside2";
+    grid-template-columns: 1.5fr 1fr;
+    background-color: rgb(241, 229, 113);
+}
+.topmenu, footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.li :hover {
+    background-color: white;
+    color: black;
+}
+.a {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.li :active {
+    background-color: rgb(241, 229, 113)
+}
+.upp {
+    font-size: 18px;
+}
+.eg {
+    grid-area: eg;
+}
+.ahug {
+    grid-area: ahug;
+}
+.head {
+    grid-area: head
+}
+.foot {
+    grid-area: foot
+}
+.content {
+    background-color: rgb(241, 229, 113);
+}
+.art1 {
+    grid-area: article1;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+.asi1 {
+    grid-area: aside3;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    font-weight: 300;
+}
+.asi2 {
+    grid-area: aside4;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    font-weight: 300;
+}
+.ahug {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-areas: 
+    "article1 aside3"
+    "article1 aside4";
+    grid-template-columns: 1.5fr 1fr;
+    background-color: rgb(241, 229, 113);
+}
+.head {
+    display: flex;
+    flex-flow: row;
+}
+.li1 :hover {
+    background-color: white;
+    color: black;  
+}
+.li1 :active {
+    background-color: rgb(241, 229, 113)
+}
+.li1 {
+    text-align: right;
+}
+.topmenu {
+    grid-area: topmenu;
+    background-color: rgb(241, 229, 113)
+}
+@media screen and (min-width: 20em) {
+    .eg {
+        display: grid;
+        grid-template-areas:
+        "article"
+        "aside1"
+        "aside2";
+    }
+    .ahug {
+        display: grid;
+        grid-template-areas:
+        "article1"
+        "aside3"
+        "aside4";
+    }
+    body {
+        display: grid;
+        grid-template-areas:
+        "head"
+        "topmenu"
+        "content"
+        "foot";
+        font-size:1.5em;
+    }
+    .upp {
+        font-size:1.5em;
+    }
+/* Það er engin leið til að stækka font í embed spotify dæminu, sorry */
+    .spotify {
+        width: 500px;
+        height: 580px;
+    }
+    .map {
+        width: 600px;
+        height: 450px;
+    }
+    .lago {
+        width: 750px;
+        height: 279.64px;
+    }
+    .a {
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 22.5em) {
+    body {
+        font-size: 2em;
+    }
+    .upp {
+        font-size: 1em;
+    }
+    .map {
+        width: 700px;
+        height: 525px;
+    }
+    .cs {
+        width: 600px;
+        height: 301.20px;
+    }
+    .mynd {
+        width: 550px;
+        height: 616.25px;
+    }
+  }
+@media screen and (min-width: 25.688em) {
+    .a {
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 30em) {
+    body {
+        font-size: 2em;;
+    }
+}
+@media screen and (min-width: 37.5em) {
+    .spotify {
+        width: 600px;
+        height: 680px;
+    }
+}
+@media screen and (min-width: 48em) {
+    .eg {
+        display: grid;
+        grid-template-areas:
+        "article aside1"
+        "article aside2";
+        grid-template-columns: 1.5fr 1fr;
+        padding: 1em;
+    }
+    .ahug {
+        display: grid;
+        grid-template-areas:
+        "article1 aside3"
+        "article1 aside4";
+        grid-template-columns: 1.5fr 1fr;
+        padding: 1em;
+    }
+    .body {
+        display: grid;
+        grid-template-areas:
+        "head" "topmenu"
+        "content" "content"
+        "foot" "foot";
+    }
+    .mynd {
+        width: 650px;
+        height: 728.29px;
+    }
+    .you {
+        width: 850px;
+        height: 478.13px;
+    }
+}
+@media screen and (min-width: 60em) {
+    .eg {
+        grid-gap: 1em;
+    }
+    .ahug {
+        grid-gap: 1em;
+    }
+}
+@media screen and (min-width: 80em) {
+    .eg {
+        display: grid;
+        grid-gap: 2em;
+        grid-template-areas: 
+        "article aside1"
+        "article aside2";
+        grid-template-columns: 1.5fr 1fr;
+        background-color: rgb(241, 229, 113);
+        margin: 0 auto;
+    }
+    .ahug {
+        display: grid;
+        grid-gap: 2em;
+        grid-template-areas: 
+        "article1 aside3"
+        "article1 aside4";
+        grid-template-columns: 1.5fr 1fr;
+        background-color: rgb(241, 229, 113);
+        margin: 0 auto;
+    }
+    body {
+        display: grid;
+        grid-gap: 0em;
+        grid-template-areas:
+        "head" "topmenu"
+        "content" "content"
+        "foot" "foot";
+        max-width: 100em;
+        background-color: lightblue;
+        font-size: 1.5em;
+        margin: 0 auto;
+    }
+    .a {
+        font-size: 2em;
+    }
+    .map {
+        width: 400px;
+        height: 300px;
+    }
+    .lago {
+        width: 700px;
+        height: 261px;
+    }
+    .mynd {
+        width: 357px;
+        height: 400px;
+    }
+    .you {
+        width: 800px;
+        height: 450px;
+    }
+    .cs {
+        width: 500px;
+        height: 251px;
+    }
+    .spotify {
+        width: 300px;
+        height: 380px;
+    }
+    .a {
+        font-size: 1.2em;
+    }
+}
