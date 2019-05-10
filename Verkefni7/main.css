@@ -1,0 +1,438 @@
+.logo {
+    display: block;
+    width: 1280px;
+    height: 327.43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url("Myndir\ og\ fleira/Background.jpg") ;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.text {
+    color: white;
+    margin-left: 8em;
+    margin-right: 8em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.header {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.a {
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 1.4em;
+    padding: 4em;
+}
+.menu {
+    text-align:center;
+    width: 100%;
+}
+.ul {
+    display:inline-block;
+}
+.li {
+    float:left;
+}
+.menu li + li {
+    margin-left:20px;
+}
+.a:hover {
+    color: darkkhaki;
+}
+.a:active {
+    color: white;
+}
+.upp {
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;;
+    font-size:2.5em;
+    display: block;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 1.5em;
+    padding: 0;
+}
+.upp:hover {
+    background-color: darkkhaki;
+}
+.upp:active {
+    background-color: white;
+}
+.spotify {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tonlist {
+    text-align: center;
+    width: 100%;
+}
+.tonlist1 {
+    display: inline-block;
+}
+.video {
+    float: left;
+    padding: 1em;
+}
+.mynd {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 20em) {
+    .menu {
+        width: 25%;
+    }
+    .li {
+        float: center;
+    }
+    .a {
+        padding: auto;
+        font-size: 0.8em;
+        padding: 0.3em;
+    }
+    .ul {
+        display: flex;
+        flex-flow: row;
+    }
+    .text {
+        text-align: justify;
+        font-size: 0.9em;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .logo {
+        width: 300px;
+        height: 76.74px;
+    }
+    .leikmynd {
+        width: 300px;
+        height: 157.50px;
+        margin-left: 10px;
+    }
+    .netmynd {
+        width: 300px;
+        height: 225.63px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .modmynd {
+        width: 300px;
+        height: 168.43px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /*Spotify er ekki hægt að breyta í stærð en hann sýnist aðlagst flestum stærðum*/
+    .spotify {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .tonmynd {
+        width: 300px;
+        height: 168.75px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .upp {
+        width: 1.2em;
+        height: 1.2em;
+        font-size: 2.4em;
+    }
+}
+@media screen and (min-width: 22.5em) {
+    .a {
+        font-size: 0.9em;
+    }
+    .leikmynd {
+        width: 340px;
+        height: 178.50px;
+    }
+    .netmynd {
+        width: 340px;
+        height: 255.71px;
+    }
+    .modmynd {
+        width: 340px;
+        height: 190.89px;
+    }
+    .tonmynd {
+        width: 340px;
+        height: 191.25px;
+    }
+}
+@media screen and (min-width: 23.438em) {
+    .leikmynd {
+        width: 353px;
+        height: 185.33px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    .netmynd {
+        width: 353px;
+        height: 265.49px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    .modmynd {
+        width: 353px;
+        height: 198.18px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    .tonmynd {
+        width: 353px;
+        height: 198.56px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+}
+@media screen and (min-width: 25.688em) {
+    .a {
+        font-size: 1em;
+    }
+    .text {
+        font-size: 1em;
+    }
+    .logo {
+        width: 340px;
+        height: 86.97px;
+    }
+    .leikmynd {
+        width: 387px;
+        height: 203.18px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    .netmynd {
+        width: 387px;
+        height: 291.06px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    .modmynd {
+        width: 387px;
+        height: 217.27px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    .tonmynd {
+        width: 387px;
+        height: 217.69px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    .upp {
+        width: 1.3em;
+        height: 1.3em;
+        font-size: 2.6em;
+    }
+}
+@media screen and (min-width: 30em) {
+    .leikmynd {
+        width: 450px;
+        height: 236.25px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .a {
+        font-size: 1.4em;
+    }
+    .text {
+        font-size: 1.5em;
+    }
+    .netmynd {
+        width: 450px;
+        height: 338.44px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .modmynd {
+        width: 450px;
+        height: 252.64px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .tonmynd {
+        width: 450px;
+        height: 253.13px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .logo {
+        width: 400px;
+        height: 102.32;
+    }
+    .upp {
+        width: 1.3em;
+        height: 1.3em;
+        font-size: 3.4em;
+    }
+    .header {
+        font-size: 3em;
+    }
+}
+@media screen and (min-width: 37.5em) {
+    .logo {
+        width: 500px;
+        height: 127.90px;
+    }
+    .a {
+        font-size: 1.8em;
+    }
+    .header {
+        font-size: 3.75em;
+    }
+    .text {
+        font-size: 1.7em;
+    }
+    .leikmynd {
+        width: 560px;
+        height: 294px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .netmynd {
+        width: 560px;
+        height: 421.17px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .modmynd {
+        width: 560px;
+        height: 314.40px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .tonmynd {
+        width: 560px;
+        height: 315px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    /* Sorry að ég get ekki lagað spotify í þessu viðmiði, það verður betra í næsta */
+}
+@media screen and (min-width: 48em) {
+    .logo {
+        width: 650px;
+        height: 166.27px;
+    }
+    .a {
+        font-size: 2.3em;
+    }
+    .text {
+        font-size: 2.2em;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .leikmynd {
+        width: 710px;
+        height: 372.75px;
+        margin-right: 29px;
+        margin-left: 29px;
+    }
+    .netmynd {
+        width: 710px;
+        height: 533.98px;
+        margin-right: 29px;
+        margin-left: 29px;
+    }
+    .modmynd {
+        width: 710px;
+        height: 398.61px;
+        margin-right: 29px;
+        margin-left: 29px;
+    }
+    .tonmynd {
+        width: 390px;
+        height: 219.38px;
+    }
+    .video {
+        padding: 10px;
+    }
+    .upp {
+        font-size: 4.2em;
+    }
+}
+@media screen and (min-width: 64em) {
+    .logo {
+        width: 800px;
+        height: 204.64px;
+    }
+    .a {
+        font-size: 3.5em;
+    }
+    .text {
+        font-size: 3em;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .leikmynd {
+        width: 928px;
+        height: 487.20px;
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+    .netmynd {
+        width: 928px;
+        height: 697.93px;
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+    .modmynd {
+        width: 928px;
+        height: 521.01px;
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+    .tonmynd {
+        width: 628px;
+        height: 353.25px;
+    }
+    .header {
+        font-size: 6em;
+    }
+}
+@media screen and (min-width: 80em) {
+    .logo {
+        width: 1040px;
+        height: 266.03px;
+    }
+    .a {
+        font-size: 5em;
+    }
+    .text {
+        font-size: 2.5em;
+        margin-right: 6em;
+        margin-left: 6em;
+    }
+    .leikmynd {
+        margin-right: 15em;
+        margin-left: 15em;
+    }
+    .netmynd {
+        margin-right: 15em;
+        margin-left: 15em;
+    }
+    .modmynd {
+        margin-right: 15em;
+        margin-left: 15em;
+    }
+}
