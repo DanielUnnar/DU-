@@ -7,3 +7,11 @@ VEF1H2
 * [Verkefni 5](Verkefni5)
 * [Verkefni 6](Verkefni6)
 * [Æfing](Æfing)
+
+Fyrir Lokaverkefni tók ég leikinn Minecraft, þessi leikur er frábær fyrir lokaverkefni því það er margt til að fjalla um og mikið af sniðugum hlutum sem hægt er að nota tengt tónlist, myndum og kvikmyndum.
+
+Heimildaskrá fyrir Lokaverkefni
+Logo: https://www.deviantart.com/nuryrush/art/Minecraft-HD-logo-608527242
+Bakgrunnur: https://minecraftworlds.fandom.com/wiki/File:Wiki-background
+Tónlistin: Öll tónlist er af C418, hér er spotify link: https://open.spotify.com/artist/4uFZsG1vXrPcvnZ4iSQyrx?si=2jUfY7ulSfewlFGv4BEiaw
+Video um tónlist: https://www.youtube.com/watch?v=eN0P5H_mdgQ
