@@ -13,5 +13,5 @@ Fyrir Lokaverkefni tók ég leikinn Minecraft, þessi leikur er frábær fyrir l
 Heimildaskrá fyrir Lokaverkefni
 Logo: https://www.deviantart.com/nuryrush/art/Minecraft-HD-logo-608527242
 Bakgrunnur: https://minecraftworlds.fandom.com/wiki/File:Wiki-background
-Tónlistin: Öll tónlist er af C418, hér er spotify link: https://open.spotify.com/artist/4uFZsG1vXrPcvnZ4iSQyrx?si=2jUfY7ulSfewlFGv4BEiaw
+Tónlistin: C418: https://open.spotify.com/artist/4uFZsG1vXrPcvnZ4iSQyrx?si=2jUfY7ulSfewlFGv4BEiaw
 Video um tónlist: https://www.youtube.com/watch?v=eN0P5H_mdgQ
