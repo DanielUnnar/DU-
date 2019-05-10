@@ -6,6 +6,7 @@ VEF1H2
 * [Verkefni 4](Verkefni4)
 * [Verkefni 5](Verkefni5)
 * [Verkefni 6](Verkefni6)
+* [Verkefni 7](Verkefni7)
 * [Æfing](Æfing)
 
 Fyrir Lokaverkefni tók ég leikinn Minecraft, þessi leikur er frábær fyrir lokaverkefni því það er margt til að fjalla um og mikið af sniðugum hlutum sem hægt er að nota tengt tónlist, myndum og kvikmyndum.
